@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!--cdn iconos-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!--my fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Gafata&family=Khula:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>webAnuncios</title>
+</head>
+
+<body>
+    <!--navBar-->
+    <nav id="navB" class="navbar navbar-expand-lg bg-transparent  nav ">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand" href="#">
+
+                <!---->
+                <!--casitaNav-->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building-store  width=" 50"
+                    height="60" viewBox="0 0 23 23" stroke-width="1.5" stroke="hsl(325, 78%, 73%)" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <line x1="3" y1="21" x2="21" y2="21" />
+                    <path d="M3 7v1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1h-18l2 -4h14l2 4" />
+                    <line x1="5" y1="21" x2="5" y2="10.85" />
+                    <line x1="19" y1="21" x2="19" y2="10.85" />
+                    <path d="M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4" />
+                </svg></a>
+            <!--navbBarLinks-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav- mx-3">
+                        <a class="nav-link link" href="#">Link</a>
+                    </li>
+                    <li class="nav- mx-3 link ">
+                        <a class="nav-link link" href="#">Link</a>
+                    </li>
+                    <li class="nav- mx-3">
+                        <a class="nav-link link" href="#">Link</a>
+                    </li>
+                    <li class="nav- mx-3 dropdown link">
+                        <a class="nav-link dropdown-toggle link" href="" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu menu-desplegable mb-2 " aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown mx-3  mb-2 d-list" href="">accesorios</a></li>
+                            <li><a class="dropdown mx-3  mb-2 d-list" href="">zapatos</a></li>
+
+                            <li><a class="dropdown mx-3  mb-2 d-list" href="">vestidos</a></li>
+                            <li><a class="dropdown mx-3  mb-2 d-list" href="">abrigos</a></li>
+                            <li><a class="dropdown mx-3  mb-2 d-list" href="">pantalones</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <!--navIconosBtn-->
+                <div class="style-list d-flex">
+                    <div class="btn-user mx-2">
+                        <i class="far fa-user iconos"></i>
+                    </div>
+                    <div class="btn-search mx-2">
+                        <i class="fas fa-search iconos"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12 text-center">
+                <h1 class="font-weight-light my-5 py-5">Buy & Shell</h1>
+                <h3 class="lead my-5">Compra tu necesidad y Vende el excedente</h3>
+                <P class=" text-accent header-p">Utiliza este formulario para registrarte en nuestra página</P>
+        </div>
+    </div>
+
+    <div class="container-fuid vh-100 mx-4 py-5">
+        <form class="row g-3">
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Nombre de Usuario</label>
+                <input type="text" class="form-control" id="inputname" placeholder="nombre y apellidos">
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="el mejor de tus emails">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="debe contener min. 8 caracteres">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Dirección</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="direccion postal">
+            </div>
+           
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Pais</label>
+              <input type="text" class="form-control" id="inputCity">
+             <!--<select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>--> 
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Codigo postal</label>
+              <input type="number" class="form-control" id="inputZip">
+            </div>
+            <div class="col-md-3">
+                <label for="inputnumber" class="form-label">Telefono de Contacto</label>
+                <input type="number" class="form-control" id="inputnumber">
+              </div>
+           <!--<div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>--> 
+            <div class="col-12 text-center">
+              <button type="submit" class="btn btn-header mt-5">Enviar</button>
+            </div>
+          </form>
+    </div>
+
+    <footer class="container-fluid h-100 my-5 py-5 ms-0 me-0">
+        <div class="row align-items-center justify-content-center">
+            <div class=" col-12 col-md-4 px-3 text-center">
+                <p class="pFooter">telefono:876459034</p>
+
+            </div>
+            <div class="col-12 col-md-4 px-3 text-center">
+                <i class="fab fa-instagram-square iF"></i>
+                <i class="fab fa-facebook-square iF"></i>
+
+            </div>
+            <div class="col col-12 col-md-4 px-3 text-center">
+                <p class="pFooter">email:mirtraffik@gmail.com</p>
+
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+    <script>
+        document.addEventListener(`scroll `, () => {
+            //nombrar la varible sobre la k tengo k hacer la funcion
+            let navB = document.querySelector(`#navB`);
+            // aplicarle la condicion
+            // si la venta del navegdor es >100 añade esto
+            if (window.pageYOffset > 100) {
+                navB.classList.remove(`bg-transparent`);
+                navB.style.backgroundColor = "#008080";
+                navB.classList.add(`bd-accent`);
+                navB.style.transition = "0.4s"
+            }
+            // si no aña de esto otro
+            else {
+                navB.classList.remove(`bd-accent`)
+                navB.classList.add(`bg-transparent`)
+            }
+        })
+       
+        //nombrar la variable sobre la que quiero iterar
+        const ofertasDelDia = [`vestidos`, `pantalones`, `zapatos`, `abrigos`, `accesorios`, `blusas`, `jerseys`,
+            `blazer`
+        ]
+
+        //la row donde ponemos las cards
+        let ofertas = document.querySelector(`#ofertasDelDiaWrapper`);
+        console.log(ofertas)
+        //  por cada elemento de una lista sacamos las cards en base a los elementos que tenemos
+        ofertasDelDia.forEach(el => {
+            // creame un div 
+            let div = document.createElement(`div`)
+            div.classList.add(`col-12`, `col-md-6`, `col-lg-3`, `mb-3`)
+            // añadir el elemento html
+            div.innerHTML = ` 
+               <div class="card bg-transparent cards py-3 text-center">
+                <h5 class="card-title">${el}</h5>
+                  <div class="card-body">
+                  
+                    <p class="card-text t-c">Ver lo más actualizado</p>
+                    <div>
+                        <button class="btn-card bg-main">Ver Contenido</button> 
+                    <div> 
+                  </div>
+                </div>`
+            // para sacar los hijos y me los enseña
+            ofertas.appendChild(div);
+
+        });
+    </script>
+
+</body>
+
+</html>
